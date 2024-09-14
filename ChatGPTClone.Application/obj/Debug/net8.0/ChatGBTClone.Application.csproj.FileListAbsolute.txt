@@ -1,0 +1,15 @@
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/bin/Debug/net8.0/ChatGBTClone.Application.deps.json
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/bin/Debug/net8.0/ChatGBTClone.Application.dll
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/bin/Debug/net8.0/ChatGBTClone.Application.pdb
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/bin/Debug/net8.0/ChatGPTClone.Domain.dll
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/bin/Debug/net8.0/ChatGPTClone.Domain.pdb
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/obj/Debug/net8.0/ChatGBTClone.Application.csproj.AssemblyReference.cache
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/obj/Debug/net8.0/ChatGBTClone.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/obj/Debug/net8.0/ChatGBTClone.Application.AssemblyInfoInputs.cache
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/obj/Debug/net8.0/ChatGBTClone.Application.AssemblyInfo.cs
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/obj/Debug/net8.0/ChatGBTClone.Application.csproj.CoreCompileInputs.cache
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/obj/Debug/net8.0/ChatGBTC.300F1B5D.Up2Date
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/obj/Debug/net8.0/ChatGBTClone.Application.dll
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/obj/Debug/net8.0/refint/ChatGBTClone.Application.dll
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/obj/Debug/net8.0/ChatGBTClone.Application.pdb
+/Users/pc/Desktop/ChatGPTClone/ChatGBTClone.Application/obj/Debug/net8.0/ref/ChatGBTClone.Application.dll

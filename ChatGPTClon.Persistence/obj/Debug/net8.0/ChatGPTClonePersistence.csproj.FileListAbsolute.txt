@@ -1,0 +1,5 @@
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClonePersistence/obj/Debug/net8.0/ChatGPTClonePersistence.csproj.AssemblyReference.cache
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClonePersistence/obj/Debug/net8.0/ChatGPTClonePersistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClonePersistence/obj/Debug/net8.0/ChatGPTClonePersistence.AssemblyInfoInputs.cache
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClonePersistence/obj/Debug/net8.0/ChatGPTClonePersistence.AssemblyInfo.cs
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClonePersistence/obj/Debug/net8.0/ChatGPTClonePersistence.csproj.CoreCompileInputs.cache

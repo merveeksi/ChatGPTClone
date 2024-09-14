@@ -1,0 +1,17 @@
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/bin/Debug/net8.0/ChatGPTClon.Persistence.deps.json
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/bin/Debug/net8.0/ChatGPTClon.Persistence.runtimeconfig.json
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/bin/Debug/net8.0/ChatGPTClon.Persistence.dll
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/bin/Debug/net8.0/ChatGPTClon.Persistence.pdb
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/bin/Debug/net8.0/ChatGPTClone.Domain.dll
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/bin/Debug/net8.0/ChatGPTClone.Domain.pdb
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/ChatGPTClon.Persistence.csproj.AssemblyReference.cache
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/ChatGPTClon.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/ChatGPTClon.Persistence.AssemblyInfoInputs.cache
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/ChatGPTClon.Persistence.AssemblyInfo.cs
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/ChatGPTClon.Persistence.csproj.CoreCompileInputs.cache
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/ChatGPTC.7220A85E.Up2Date
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/ChatGPTClon.Persistence.dll
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/refint/ChatGPTClon.Persistence.dll
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/ChatGPTClon.Persistence.pdb
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/ChatGPTClon.Persistence.genruntimeconfig.cache
+/Users/pc/Desktop/ChatGPTClone/ChatGPTClon.Persistence/obj/Debug/net8.0/ref/ChatGPTClon.Persistence.dll

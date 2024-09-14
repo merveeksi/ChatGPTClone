@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "0ZsdWRrHe5M=",
+  "success": true,
+  "projectFilePath": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.Application/ChatGPTClone.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/pc/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
+    "/Users/pc/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.2/fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
+    "/Users/pc/.nuget/packages/mediatr/12.4.0/mediatr.12.4.0.nupkg.sha512",
+    "/Users/pc/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.8/microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/8.0.8/microsoft.aspnetcore.cryptography.keyderivation.8.0.8.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.entityframeworkcore/8.0.8/microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.8/microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.8/microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.identity.core/8.0.8/microsoft.extensions.identity.core.8.0.8.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.identity.stores/8.0.8/microsoft.extensions.identity.stores.8.0.8.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.localization.abstractions/8.0.8/microsoft.extensions.localization.abstractions.8.0.8.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/pc/.nuget/packages/ulid/1.3.4/ulid.1.3.4.nupkg.sha512"
+  ],
+  "logs": []
+}

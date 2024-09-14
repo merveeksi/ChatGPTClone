@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/pc/Desktop/ChatGPTClone/ChatGPTClone.WebApi/wwwroot/email-templates/email-verification-template.html",
+      "PackagePath": "staticwebassets/email-templates/email-verification-template.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ChatGPTClone.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ChatGPTClone.WebApi.props",
+      "PackagePath": "build\\ChatGPTClone.WebApi.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ChatGPTClone.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\ChatGPTClone.WebApi.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ChatGPTClone.WebApi.props",
+      "PackagePath": "buildTransitive\\ChatGPTClone.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

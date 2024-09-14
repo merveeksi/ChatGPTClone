@@ -1,0 +1,21 @@
+2024-09-11 15:13:32.965 +03:00 [WRN] Starting web application
+2024-09-11 15:24:31.982 +03:00 [WRN] Starting web application
+2024-09-11 15:29:02.508 +03:00 [WRN] Starting web application
+2024-09-11 15:29:43.144 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-11 15:33:49.295 +03:00 [WRN] Starting web application
+2024-09-11 15:33:51.826 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-11 15:34:29.588 +03:00 [ERR] Validation failed: 
+ -- Email: The email is already in use. Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Email: The email is already in use. Severity: Error
+   at ChatGPTClone.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTClone/ChatGPTClone.Application/Common/Behaviours/ValidationBehaviour.cs:line 37
+   at ChatGPTClone.WebApi.Controllers.AuthController.Register(AuthRegisterCommand command, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTClone/ChatGPTClone.WebApi/Controllers/AuthController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-11 15:46:35.865 +03:00 [WRN] Starting web application
+2024-09-11 15:46:59.910 +03:00 [WRN] Failed to determine the https port for redirect.

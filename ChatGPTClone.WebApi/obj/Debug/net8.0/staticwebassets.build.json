@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "S3hFEAdAU8JP6c0YwnJmStNA9rtsbIsylwPM82L7lnw=",
+  "Source": "ChatGPTClone.WebApi",
+  "BasePath": "_content/ChatGPTClone.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChatGPTClone.WebApi/wwwroot",
+      "Source": "ChatGPTClone.WebApi",
+      "ContentRoot": "/Users/pc/Desktop/ChatGPTClone/ChatGPTClone.WebApi/wwwroot/",
+      "BasePath": "_content/ChatGPTClone.WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/pc/Desktop/ChatGPTClone/ChatGPTClone.WebApi/wwwroot/email-templates/email-verification-template.html",
+      "SourceId": "ChatGPTClone.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/pc/Desktop/ChatGPTClone/ChatGPTClone.WebApi/wwwroot/",
+      "BasePath": "_content/ChatGPTClone.WebApi",
+      "RelativePath": "email-templates/email-verification-template.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/email-templates/email-verification-template.html"
+    }
+  ]
+}
