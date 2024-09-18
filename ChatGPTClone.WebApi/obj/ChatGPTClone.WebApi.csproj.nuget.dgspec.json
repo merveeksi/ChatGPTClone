@@ -20,6 +20,7 @@
           "net8.0"
         ],
         "sources": {
+          "/Users/pc/.dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/pc/.dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -104,6 +105,7 @@
           "net8.0"
         ],
         "sources": {
+          "/Users/pc/.dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -152,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/pc/.dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -172,6 +174,7 @@
           "net8.0"
         ],
         "sources": {
+          "/Users/pc/.dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -262,7 +265,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/pc/.dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -282,6 +285,7 @@
           "net8.0"
         ],
         "sources": {
+          "/Users/pc/.dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -350,7 +354,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/pc/.dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
