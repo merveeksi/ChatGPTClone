@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S3hFEAdAU8JP6c0YwnJmStNA9rtsbIsylwPM82L7lnw=",
+  "Hash": "YKsKQB+KOHkUfWPemEKOqPoIAUG0eI/7pdKQpAErF98=",
   "Source": "ChatGPTClone.WebApi",
   "BasePath": "_content/ChatGPTClone.WebApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ChatGPTClone.WebApi/wwwroot",
       "Source": "ChatGPTClone.WebApi",
-      "ContentRoot": "/Users/pc/Desktop/ChatGPTClone/ChatGPTClone.WebApi/wwwroot/",
+      "ContentRoot": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/wwwroot/",
       "BasePath": "_content/ChatGPTClone.WebApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/pc/Desktop/ChatGPTClone/ChatGPTClone.WebApi/wwwroot/email-templates/email-verification-template.html",
+      "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/wwwroot/email-templates/email-verification-template.html",
       "SourceId": "ChatGPTClone.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pc/Desktop/ChatGPTClone/ChatGPTClone.WebApi/wwwroot/",
+      "ContentRoot": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/wwwroot/",
       "BasePath": "_content/ChatGPTClone.WebApi",
       "RelativePath": "email-templates/email-verification-template.html",
       "AssetKind": "All",

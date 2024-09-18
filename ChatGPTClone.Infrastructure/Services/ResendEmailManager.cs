@@ -25,7 +25,9 @@ public class ResendEmailManager : IEmailService
         var emailTitle = "E-Posta Doğrulama İşlemi - ChatGPTClone";
 
         html = html.Replace("{{title}}", emailTitle);
-
+        
+        html = html.Replace("{{greetings}}", $"Merhaba {emailVerificationDto.Email}");
+        
         html = html.Replace("{{message}}", "E-Posta doğrulama işleminizi tamamlamak için aşağıdaki linke tıklayınız.");
 
         html = html.Replace("{{verifyButtonText}}", "E-Posta Doğrula");
