@@ -1,0 +1,31 @@
+2024-09-15 01:13:17.833 +03:00 [WRN] Starting web application
+2024-09-15 16:13:36.376 +03:00 [WRN] Starting web application
+2024-09-15 16:13:38.703 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-15 16:33:06.957 +03:00 [WRN] Starting web application
+2024-09-15 16:33:51.314 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-15 16:39:29.105 +03:00 [ERR] Validation failed: 
+ -- Email: Email address is already verified. Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Email: Email address is already verified. Severity: Error
+   at ChatGPTClone.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.Application/Common/Behaviours/ValidationBehaviour.cs:line 37
+   at ChatGPTClone.WebApi.Controllers.AuthController.ResendEmailVerification(AuthReSendEmailVerificationEmailCommand command, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/Controllers/AuthController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-15 16:39:50.223 +03:00 [ERR] Validation failed: 
+ -- Email: Email address is not exists. Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Email: Email address is not exists. Severity: Error
+   at ChatGPTClone.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.Application/Common/Behaviours/ValidationBehaviour.cs:line 37
+   at ChatGPTClone.WebApi.Controllers.AuthController.ResendEmailVerification(AuthReSendEmailVerificationEmailCommand command, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/Controllers/AuthController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
