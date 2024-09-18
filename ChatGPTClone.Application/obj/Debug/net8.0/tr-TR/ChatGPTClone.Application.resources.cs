@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatGPTClone.Application")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute(" ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50040a0c3d6439e8f73a4c8cfcf06d6b6b548366")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b3e021ceed4c253265fe41f15e36d1f9cfd439e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatGPTClone.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatGPTClone.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
