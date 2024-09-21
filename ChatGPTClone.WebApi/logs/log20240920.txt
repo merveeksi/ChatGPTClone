@@ -1,0 +1,30 @@
+2024-09-20 00:29:49.609 +03:00 [WRN] Starting web application
+2024-09-20 00:29:55.150 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-20 00:32:42.300 +03:00 [ERR] Incorrect API key provided: sk-proj-. You can find your API key at https://platform.openai.com/account/api-keys.
+System.Exception: Incorrect API key provided: sk-proj-. You can find your API key at https://platform.openai.com/account/api-keys.
+   at ChatGPTClone.Infrastructure.Services.OpenAiManager.ChatAsync(OpenAIChatRequest request, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.Infrastructure/Services/OpenAiManager.cs:line 45
+   at ChatGPTClone.Application.Features.ChatSessions.Commands.Create.ChatSessionCreateCommandHandler.Handle(ChatSessionCreateCommand request, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.Application/Features/ChatSessions/Commands/Create/ChatSessionCreateCommandHandler.cs:line 32
+   at ChatGPTClone.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.Application/Common/Behaviours/ValidationBehaviour.cs:line 40
+   at ChatGPTClone.WebApi.Controllers.ChatSessionsController.CreateAsync(ChatSessionCreateCommand command, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/Controllers/ChatSessionsController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-20 00:33:55.422 +03:00 [ERR] Incorrect API key provided: sk-proj-. You can find your API key at https://platform.openai.com/account/api-keys.
+System.Exception: Incorrect API key provided: sk-proj-. You can find your API key at https://platform.openai.com/account/api-keys.
+   at ChatGPTClone.Infrastructure.Services.OpenAiManager.ChatAsync(OpenAIChatRequest request, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.Infrastructure/Services/OpenAiManager.cs:line 45
+   at ChatGPTClone.Application.Features.ChatSessions.Commands.Create.ChatSessionCreateCommandHandler.Handle(ChatSessionCreateCommand request, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.Application/Features/ChatSessions/Commands/Create/ChatSessionCreateCommandHandler.cs:line 32
+   at ChatGPTClone.Application.Common.Behaviours.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.Application/Common/Behaviours/ValidationBehaviour.cs:line 40
+   at ChatGPTClone.WebApi.Controllers.ChatSessionsController.CreateAsync(ChatSessionCreateCommand command, CancellationToken cancellationToken) in /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/Controllers/ChatSessionsController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-20 00:34:40.790 +03:00 [WRN] Starting web application
+2024-09-20 00:35:07.849 +03:00 [WRN] Failed to determine the https port for redirect.
