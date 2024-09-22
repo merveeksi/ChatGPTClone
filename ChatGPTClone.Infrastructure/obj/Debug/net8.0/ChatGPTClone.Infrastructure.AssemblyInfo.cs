@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatGPTClone.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fa9bfdabe3e0bb3e6e83e7930b7b8d1551ada06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d75a8da20cee5c163629dc12ae75d6ed08da1a4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatGPTClone.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatGPTClone.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

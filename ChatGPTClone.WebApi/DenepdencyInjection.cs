@@ -14,7 +14,7 @@ public static class DenepdencyInjection
     public static IServiceCollection AddWebApi(this IServiceCollection services, IConfiguration
         configuration, IWebHostEnvironment environment)
     {
-        // Tuna bozmasin diye buraya yazdim.
+        services.AddMemoryCache(); //Add Memory Cache, bellek üzerinde veri tutmak için kullanılır.
 
         services.AddCors(options =>
         {
