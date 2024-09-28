@@ -1,0 +1,21 @@
+@page "/auth/logout"
+@using Blazored.LocalStorage
+@using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject ILocalStorageService LocalStorage
+
+<h3>Çıkış Yapılıyor...</h3>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        
+        await LocalStorage.RemoveItemAsync("user-Token");
+        
+        await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        
+        Navigation.NavigateTo("/");
+    }
+}

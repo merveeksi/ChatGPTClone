@@ -37,6 +37,7 @@ public class JwtManager : IJwtService
                 new Claim(JwtRegisteredClaimNames.Exp, expirationDate.ToFileTimeUtc().ToString()),    //tokenin ne zaman biteceği   //long olarak tutuluyor(tofiletime)
                 new Claim(JwtRegisteredClaimNames.Iat, DateTime.Now.ToFileTimeUtc().ToString()),     //tokenin ne zaman başladığı
                 new Claim("reklam", "En iyi akademi Reklam Academy! Just joking it's the god damn Yazilim Academy!"),
+                new Claim(ClaimTypes.Role, "Admin") //bu tokenin hangi rolde olduğu
             }
             //birleştirme işlemi
             .Union(request.Roles.Select(role => new Claim(ClaimTypes.Role, role))); 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3nUW5va7E215xcjqMgPVJSn/XoeNfywQ5nAiK0+FmhE=",
+  "Hash": "7XDk4s0b8i5BzXLOseInEkfUXjXsUcIDwQS5+uAsnWQ=",
   "Source": "ChatGPTClone.WasmClient",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/pc/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/8.0.8/staticwebassets/AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/pc/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/8.0.8/staticwebassets/",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/pc/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/8.0.8/staticwebassets/AuthenticationService.js"
+    },
     {
       "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json",
       "SourceId": "ChatGPTClone.WasmClient",
@@ -53,6 +72,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/pc/.nuget/packages/microsoft.aspnetcore.components.webassembly/8.0.7/build/net8.0/blazor.webassembly.js"
+    },
+    {
+      "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Blazored.LocalStorage.wasm",
+      "SourceId": "ChatGPTClone.WasmClient",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/webcil/Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/ChatGPTClone.Application.pdb",
@@ -454,6 +492,25 @@
       "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Authorization.wasm"
     },
     {
+      "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "SourceId": "ChatGPTClone.WasmClient",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.Authorization.wasm"
+    },
+    {
       "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.wasm",
       "SourceId": "ChatGPTClone.WasmClient",
       "SourceType": "Computed",
@@ -509,6 +566,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.Web.wasm"
+    },
+    {
+      "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm",
+      "SourceId": "ChatGPTClone.WasmClient",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm"
     },
     {
       "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -4501,6 +4577,25 @@
       "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/System.IO.Pipes.wasm"
     },
     {
+      "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/compressed/2nglkqrri8.gz",
+      "SourceId": "ChatGPTClone.WasmClient",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm"
+    },
+    {
       "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/compressed/37hcqmzzep.gz",
       "SourceId": "ChatGPTClone.WasmClient",
       "SourceType": "Computed",
@@ -5430,6 +5525,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/System.Runtime.Serialization.Formatters.wasm"
+    },
+    {
+      "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/compressed/b603kkxmao.gz",
+      "SourceId": "ChatGPTClone.WasmClient",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Blazored.LocalStorage.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/compressed/bb7st3a6op.gz",
@@ -6950,6 +7064,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/en-GB/ChatGPTClone.Application.resources.wasm"
+    },
+    {
+      "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/compressed/mn3vs3t03p.gz",
+      "SourceId": "ChatGPTClone.WasmClient",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.wasm"
     },
     {
       "Identity": "/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/compressed/mngsk0y82e.gz",

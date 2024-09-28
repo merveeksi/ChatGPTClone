@@ -1,7 +1,18 @@
 ﻿@using ChatGPTCloneWasmClient.Layout
+@using Microsoft.AspNetCore.Components.Authorization
+
+
+@* uygulamanın ana merkezi, sarmalama tarafı *@
+<CascadingAuthenticationState> 
 <Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
-        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)"/>
+        <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)"/>
+        <Authorizing>
+            <p>Giriş yapılıyor...</p>
+        </Authorizing>
+        <NotAuthorized>
+        <p>Bu sayfayı görmek için yetkiniz yoktur.</p>
+        </NotAuthorized>
         <FocusOnNavigate RouteData="@routeData" Selector="h1"/>
     </Found>
     <NotFound>
@@ -11,3 +22,4 @@
         </LayoutView>
     </NotFound>
 </Router>
+</CascadingAuthenticationState>

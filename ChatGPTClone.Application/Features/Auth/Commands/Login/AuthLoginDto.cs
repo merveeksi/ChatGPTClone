@@ -13,6 +13,11 @@ public class AuthLoginDto
         Token = token;
         ExpiresAt = expiresAt;
     }
+
+    public AuthLoginDto()
+    {
+        
+    }
     
     public static AuthLoginDto FromIdentityLoginResponse(IdentityLoginResponse response)
     {

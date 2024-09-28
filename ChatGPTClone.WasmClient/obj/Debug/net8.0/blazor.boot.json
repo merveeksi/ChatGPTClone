@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ChatGPTClone.WasmClient",
   "resources": {
-    "hash": "sha256-NRRAs8Zz1+4tTkhgyD7Eb/tvAf/UPQbrLDYw2v11ipw=",
+    "hash": "sha256-q9pBN5O3wCJHPQqYw9Ww0C8qUhW62yYrjdtNT5yR0Zs=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.gpvyg56y8f.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -17,15 +17,18 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
+      "Blazored.LocalStorage.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
       "FluentValidation.wasm": "sha256-1akWVGgQZ9ojnoh8cEfeVZK+gNpDt7EOzVVPLa0T/iQ=",
       "FluentValidation.DependencyInjectionExtensions.wasm": "sha256-xyG9ebXwyUs4kcZ5gsrC8B6BqfoXS0nFRfzJqPI38kU=",
       "MediatR.wasm": "sha256-azEhP8iDCucsikVK4s69LJHsgTH9oQbyRZww388tpzc=",
       "MediatR.Contracts.wasm": "sha256-/db+nahzjeSd5EhxUqFrpFzJ998Up6Vgs1PHrV3jqkU=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-tZ3Z0q6xQTgUxlWgiWvzS4SBQeBqETtRGtUWvVaU31w=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-O1efzZ+VlmJ3lOWndJZV5tR5TGF3PS5viT8tqgf8wRU=",
+      "Microsoft.AspNetCore.Components.Authorization.wasm": "sha256-V1DjV5FIfpwmhLHgE+6Sv/E95t+50ilGiAk6J5mqNFA=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-jF61/tMVhyfIJeua/KURR4OBR1xOxFpZGWa/OvX+Juk=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-xUXkW7JRXPVjIOKez4b8snSiAM4j0j94by1z9OMW2UA=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-gbP3w8Fy8u6E/VxRmH65xv70D88hF37gvIe3dsVTE4k=",
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm": "sha256-iqU1rt64IjJ60eAGbgaXPiPxX1PzX81e/FoR2vvk2QU=",
       "Microsoft.AspNetCore.Cryptography.Internal.wasm": "sha256-Xum2oKWIyarxCXH6Kvz9unvPDZ4kw81KwASNTPRd9Qk=",
       "Microsoft.AspNetCore.Cryptography.KeyDerivation.wasm": "sha256-rFzbbnKbelxjgx0Mtz4Xegu9oEZMuAZeyY8hCiMyqcE=",
       "Microsoft.AspNetCore.Metadata.wasm": "sha256-H+Or4mx9ew+622c40gHkM70UI+dPHz2Hpa4CGjtF1RA=",
@@ -222,21 +225,21 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "ChatGPTClone.Application.wasm": "sha256-PGIwDGrAqF/G9Dj6Hy/uro60c5QMqcGXzdb89UfDXwU=",
-      "ChatGPTClone.Domain.wasm": "sha256-HaXt9MdApOOnERWlSDWbgzHz6icK7pMsEXUucXQK2+o=",
-      "ChatGPTClone.WasmClient.wasm": "sha256-VmVcWXSC1cyAEhM6rT6MUAyz1GJGZntVQr8Dt+2qpW4="
+      "ChatGPTClone.Application.wasm": "sha256-dgIfeMBwn9uEJd22bdG30lPZZZimsVkjzY/1zgOvbOk=",
+      "ChatGPTClone.Domain.wasm": "sha256-tG/z8ClBPmBrf4aIQYwP4khKiYEuTfX4jM4LvrPert8=",
+      "ChatGPTClone.WasmClient.wasm": "sha256-+9tuDT5nxKmdX5souJtczAI7cCGjQyYGT1ebPcQlm7E="
     },
     "pdb": {
-      "ChatGPTClone.Application.pdb": "sha256-vILQuOKbMMqFSNR50BXCALmJy+ZaRaBjLbPRoLUaMxw=",
-      "ChatGPTClone.Domain.pdb": "sha256-9XljdFULexX8Y2Kb2By6stkN9CfFtKd5mIxKHlZonHI=",
-      "ChatGPTClone.WasmClient.pdb": "sha256-EjIsX7O9FzK4tG9rVpAdtLb2QhoRswFPUkTSwAxErfw="
+      "ChatGPTClone.Application.pdb": "sha256-w5bXxZCx9CPHoAIqaT/eoKL9KuMlPWP9yPrcAyudu/c=",
+      "ChatGPTClone.Domain.pdb": "sha256-GUE7MNQfVYUTFwOW2hgQ/C+fUOrmnzJL79eMjKiWvPY=",
+      "ChatGPTClone.WasmClient.pdb": "sha256-pKv0ArDLayrk8H4eCgmcJdh++G67/Qpe4eu24C2GB7Q="
     },
     "satelliteResources": {
       "tr-TR": {
-        "ChatGPTClone.Application.resources.wasm": "sha256-shuZFlH4ZzzsS3NvHFVDemf2e9SDNjZwYEqVJAM5RU4="
+        "ChatGPTClone.Application.resources.wasm": "sha256-vSra516NwXgPNvBQUD62F6QcwkpDP4xPQK9csWebc0Q="
       },
       "en-GB": {
-        "ChatGPTClone.Application.resources.wasm": "sha256-fWGfaAqvCDPvwJ06G9+p8uuvLXfmghhcd4Xbfx+Q0C8="
+        "ChatGPTClone.Application.resources.wasm": "sha256-l6mwod8DssUsCyQNuJ0iSDrKipqnMAaqy20e2Si5Sws="
       }
     }
   },
