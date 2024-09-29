@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aC9Mb2dpblBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Pages/Auth/LogoutPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aC9Mb2dvdXRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Pages/Auth/VerifyEmailPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aC9WZXJpZnlFbWFpbFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

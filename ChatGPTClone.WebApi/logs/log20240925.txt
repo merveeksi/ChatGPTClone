@@ -1,0 +1,4 @@
+2024-09-25 21:07:42.699 +03:00 [WRN] Starting web application
+2024-09-25 21:08:16.588 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-25 21:11:05.296 +03:00 [WRN] Starting web application
+2024-09-25 21:12:07.333 +03:00 [WRN] Failed to determine the https port for redirect.
