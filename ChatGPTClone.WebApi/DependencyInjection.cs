@@ -9,7 +9,7 @@ using Microsoft.OpenApi.Models;
 
 namespace ChatGPT.WebApi;
 
-public static class DenepdencyInjection
+public static class DependencyInjection
 {
     public static IServiceCollection AddWebApi(this IServiceCollection services, IConfiguration
         configuration, IWebHostEnvironment environment)

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace ChatGPTClone.Infrastructure.Identity;
 
-public class AppUser:IdentityUser<Guid>, IEntity, ICreatedByEntity, IModifiedByEntity // guid kullanmanın sebebi id'nin unique olmasını sağlamak //mysql için guid kullanılmaz(problemli yani)
+public class AppUser:IdentityUser<Guid>, IEntity<Guid>, ICreatedByEntity, IModifiedByEntity // guid kullanmanın sebebi id'nin unique olmasını sağlamak //mysql için guid kullanılmaz(problemli yani)
 { //AppUser bir yere bağımlı olmasın diye infrastructure katmanına koyduk
     public string? FirstName { get; set; }
     
