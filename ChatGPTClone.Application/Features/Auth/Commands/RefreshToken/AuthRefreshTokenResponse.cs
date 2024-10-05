@@ -1,9 +1,8 @@
 namespace ChatGPTClone.Application.Features.Auth.Commands.RefreshToken;
 
-public class AuthRefreshTokenResponse
+public sealed class AuthRefreshTokenResponse
 {
     public string Token { get; set; }
-
     public DateTime ExpiresAt { get; set; }
 
     public AuthRefreshTokenResponse()

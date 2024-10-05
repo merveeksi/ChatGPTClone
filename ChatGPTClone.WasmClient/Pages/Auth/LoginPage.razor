@@ -54,7 +54,7 @@
         {
             var authLoginDto = await response.Content.ReadFromJsonAsync<ResponseDto<AuthLoginDto>>();
 
-            await LocalStorage.SetItemAsync("user-token", authLoginDto.Data.Token);
+            await LocalStorage.SetItemAsync<AuthLoginDto>("user-token", authLoginDto.Data);
 
             // Trigger authentication state changed event
             await AuthenticationStateProvider.GetAuthenticationStateAsync();
@@ -79,13 +79,15 @@
         }
     }
 
+    // Bu kısım, formun doğrulama işlemlerini gerçekleştirmek için kullanılır.
+    // Bu örnekte, e-posta ve şifre alanlarının zorunlu olup olmadığını belirtmek için kullanılmıştır.
     public class FormModel
     {
         [Required, EmailAddress, MinLength(3), MaxLength(100)]
-        public string Email { get; set; } = "alper.tunga@yazilim.academy";
+        public string Email { get; set; } = "merveeksii@hotmail.com";
 
         [Required, DataType(DataType.Password), MinLength(3), MaxLength(50)]
-        public string Password { get; set; } = "123alper123";
+        public string Password { get; set; } = "Merve34+";
     }
 }
 using ChatGPTClone.Application.Common.Models.General;

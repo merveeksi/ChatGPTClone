@@ -6,7 +6,6 @@ namespace ChatGPTClone.Application.Features.Auth.Commands.RefreshToken;
 public class AuthRefreshTokenCommand : IRequest<ResponseDto<AuthRefreshTokenResponse>>
 {
     public string AccessToken { get; set; }
-    
     public string RefreshToken { get; set; }
 
     public AuthRefreshTokenCommand()

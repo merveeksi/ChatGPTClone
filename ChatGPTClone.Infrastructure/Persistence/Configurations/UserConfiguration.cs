@@ -55,6 +55,11 @@ public class UserConfiguration : IEntityTypeConfiguration<AppUser>
         builder.HasMany<ChatSession>() //Birden fazla chat session olabilir
             .WithOne()
             .HasForeignKey(x => x.AppUserId);
+        
+        // Each User can have many RefreshTokens
+        builder.HasMany<RefreshToken>()
+            .WithOne()
+            .HasForeignKey(x => x.AppUserId);
 
         // Common Properties
 
