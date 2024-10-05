@@ -19,6 +19,6 @@ public class AuthLoginCommandHandler:IRequestHandler<AuthLoginCommand, ResponseD
         var response = await _identityService.LoginAsync(request.ToIdentityLoginRequest(), cancellationToken);
 
         return new ResponseDto<AuthLoginDto>(AuthLoginDto.FromIdentityLoginResponse(response));
-
     }
+    
 }

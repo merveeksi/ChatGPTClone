@@ -1,6 +1,8 @@
-namespace ChatGPTClone.Application.Common.Interfaces;
-
-public interface ICurrentUserService
+namespace ChatGPTClone.Application.Common.Interfaces
 {
-    Guid UserId { get; }
+    public interface ICurrentUserService
+    {
+        Guid UserId { get; }
+        string IpAddress { get; }
+    }
 }
