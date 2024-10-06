@@ -1,0 +1,2 @@
+2024-10-05 23:02:27.649 +03:00 [WRN] Starting web application
+2024-10-05 23:02:32.759 +03:00 [WRN] No XML encryptor configured. Key {fa784ece-6953-4475-b11a-ec95c8a5de39} may be persisted to storage in unencrypted form.
