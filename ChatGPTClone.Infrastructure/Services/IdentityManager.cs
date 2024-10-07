@@ -13,15 +13,15 @@ using Microsoft.Extensions.Options;
 
 namespace ChatGPTClone.Infrastructure.Services;
 
-public class IdentityManager:IIdentityService
-{ 
+public class IdentityManager : IIdentityService
+{
     private readonly UserManager<AppUser> _userManager;
     private readonly IJwtService _jwtService;
     private readonly JwtSettings _jwtSettings;
     private readonly IApplicationDbContext _context;
     private readonly ICurrentUserService _currentUserService;
-        
-    // Kullanıcının kimliğini doğrular.
+
+
     public IdentityManager(UserManager<AppUser> userManager, IJwtService jwtService, IOptions<JwtSettings> jwtSettings, IApplicationDbContext context, ICurrentUserService currentUserService)
     {
         _userManager = userManager;
@@ -51,17 +51,18 @@ public class IdentityManager:IIdentityService
         .Users
         .AnyAsync(x => x.Email == email, cancellationToken);
     }
-    
+
     public Task<bool> CheckIfEmailVerifiedAsync(string email, CancellationToken cancellationToken)
     {
         return _userManager
-            .Users
-            .AnyAsync(x => x.Email == email && x.EmailConfirmed, cancellationToken);
+        .Users
+        .AnyAsync(x => x.Email == email && x.EmailConfirmed, cancellationToken);
     }
-    
+
     public async Task<bool> CheckSecurityStampAsync(Guid userId, string securityStamp, CancellationToken cancellationToken)
     {
         var user = await _userManager.FindByIdAsync(userId.ToString());
+
         return string.Equals(securityStamp, user.SecurityStamp);
     }
 
@@ -73,7 +74,6 @@ public class IdentityManager:IIdentityService
 
         return new IdentityCreateEmailTokenResponse(token);
     }
-
 
     // Kullanıcının giriş yapmasını sağlar.
     public async Task<IdentityLoginResponse> LoginAsync(IdentityLoginRequest request, CancellationToken cancellationToken)
@@ -92,26 +92,29 @@ public class IdentityManager:IIdentityService
 
         // Refresh token oluştur.
         var refreshToken = await CreateRefreshTokenAsync(user, cancellationToken);
+
         // Giriş yanıtını döndür.
         return new IdentityLoginResponse(jwtResponse.Token, jwtResponse.ExpiresAt, refreshToken.Token, refreshToken.Expires);
     }
+
     public async Task<IdentityRefreshTokenResponse> RefreshTokenAsync(IdentityRefreshTokenRequest request, CancellationToken cancellationToken)
     {
         var userId = _jwtService.GetUserIdFromJwt(request.AccessToken);
-        
+
         // Kullanıcıyı ID'sine göre bul.
         var user = await _userManager.FindByIdAsync(userId.ToString());
-        
+
         // _collection.FindOne
+
         // Kullanıcının rollerini al.
         var roles = await _userManager.GetRolesAsync(user);
-        
+
         // JWT oluşturma isteği oluştur.
         var jwtRequest = new JwtGenerateTokenRequest(user.Id, user.Email, roles);
-        
+
         // JWT oluştur.
         var jwtResponse = _jwtService.GenerateToken(jwtRequest);
-        
+
         // Giriş yanıtını döndür.
         return new IdentityRefreshTokenResponse(jwtResponse.Token, jwtResponse.ExpiresAt);
     }
@@ -149,26 +152,21 @@ public class IdentityManager:IIdentityService
         // Kayıt yanıtını döndür.
         return new IdentityRegisterResponse(userId, user.Email, emailToken);
     }
-    
-    // E-posta adresini doğrular.
+
     public async Task<IdentityVerifyEmailResponse> VerifyEmailAsync(IdentityVerifyEmailRequest request, CancellationToken cancellationToken)
     {
-        // Kullanıcıyı e-posta adresine göre bul.
         var user = await _userManager.FindByEmailAsync(request.Email);
-        
-        // Kullanıcı bulunamazsa hata fırlat.
-        var decodedToken = HttpUtility.UrlDecode(request.Token);
-        
-        // E-posta adresini doğrula.
+
+        // var decodedToken = HttpUtility.UrlDecode(request.Token);
+
         var result = await _userManager.ConfirmEmailAsync(user, request.Token);
 
-        // Doğrulama işlemi başarısız olursa hata fırlat.
-        if (!result.Succeeded) CreateAndThrowValidationException(result.Errors);
+        if (!result.Succeeded)
+            CreateAndThrowValidationException(result.Errors);
 
-        // E-posta adresini doğrulama yanıtını döndür.
         return new IdentityVerifyEmailResponse(user.Email);
     }
-    
+
     // Doğrulama hatası oluşturur ve fırlatır.
     private void CreateAndThrowValidationException(IEnumerable<IdentityError> errors)
     {
@@ -180,6 +178,7 @@ public class IdentityManager:IIdentityService
         // Doğrulama hatasını fırlat.
         throw new ValidationException(errorMessages);
     }
+
     private async Task<RefreshToken> CreateRefreshTokenAsync(AppUser user, CancellationToken cancellationToken)
     {
         var refreshToken = new RefreshToken
@@ -192,8 +191,11 @@ public class IdentityManager:IIdentityService
             SecurityStamp = user.SecurityStamp, // Kullanıcının güvenlik damgasını kullanır.
             CreatedByIp = _currentUserService.IpAddress, // İp adresini kullanır.
         };
+
         await _context.RefreshTokens.AddAsync(refreshToken, cancellationToken);
+
         await _context.SaveChangesAsync(cancellationToken);
+
         return refreshToken;
     }
 }

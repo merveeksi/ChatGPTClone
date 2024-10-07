@@ -203,10 +203,6 @@
               "target": "Package",
               "version": "[8.6.2, )"
             },
-            "Microsoft.AspNet.Identity.AspNetCoreCompat": {
-              "target": "Package",
-              "version": "[0.3.4, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
