@@ -4,6 +4,7 @@ using System.Text.Json.Serialization;
 using Blazored.LocalStorage;
 using ChatGPTClone.WasmClient.AuthStateProviders;
 using ChatGPTClone.WasmClient.HttpClientDelegators;
+using ChatGPTClone.WasmClient.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using ChatGPTCloneWasmClient;
@@ -24,6 +25,8 @@ builder.Services.AddScoped(sp =>
     var client = new HttpClient(authDelegator) { BaseAddress = new Uri(baseApiUrl) };
     return client;
 });
+
+builder.Services.AddSingleton<ThemeService>();
 
 builder.Services.AddBlazoredLocalStorage(config =>
 {
