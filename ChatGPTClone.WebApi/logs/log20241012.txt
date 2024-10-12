@@ -1,0 +1,2 @@
+2024-10-12 10:27:42.546 +03:00 [WRN] Starting web application
+2024-10-12 10:28:17.944 +03:00 [WRN] Starting web application

@@ -1,0 +1,129 @@
+@using Blazored.LocalStorage
+@using ChatGPTClone.Domain.Enums
+@using ChatGPTClone.WasmClient.Services
+
+@inject ILocalStorageService LocalStorage
+@inject ThemeService ThemeService
+
+<header class="border-b border-base-100 flex justify-between items-center mx-4 mt-2">
+    <!-- Model Dropdown -->
+    <div class="dropdown">
+        <button class="btn btn-ghost" @onclick="ToggleDropdown">
+            @currentModel.ToString()
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+        </button>
+        @if (isDropdownOpen)
+        {
+            <ul tabindex="0" class="absolute mt-2 dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                @foreach (var model in Enum.GetValues<GptModelType>())
+                {
+                    <li class="@(currentModel == model ? "bg-gray-600" : "")">
+                        <button @onclick="() => SelectModel(model)">@model.ToString() @(currentModel == model ? "👈"
+                    : "")</button>
+                    </li>
+                }
+            </ul>
+        }
+    </div>
+    <div class="flex items-center space-x-4">
+        <!-- Language Dropdown -->
+        <div class="dropdown dropdown-end mr-4">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+                <svg @onclick="ToggleDropdown" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 5h12M9 3v12M21 9v6m-2-2a4 4 0 00-8 0v4H3V9a2 2 0 012-2h6a2 2 0 012 2v4h-1m2 0h1" />
+                </svg>
+            </label>
+            @if (isDropdownOpen)
+            {
+                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-40">
+                    <li><a @* @onclick="ChangeLanguage('en')" *@>English</a></li>
+                    <li><a @* @onclick="ChangeLanguage('tr')" *@>Türkçe</a></li>
+                    <li><a @* @onclick="ChangeLanguage('fr')" *@>Français</a></li>
+                </ul>
+            }
+        </div>
+        <!-- Profile Dropdown -->
+        <div class="dropdown dropdown-end">
+            <button @onclick="ToggleDropdown" class="btn btn-ghost btn-circle avatar">
+                <div class="w-10 rounded-full bg-primary/10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-2" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
+                </div>
+            </button>
+            @if (isDropdownOpen)
+            {
+                <ul tabindex="0"
+                    class="absolute right-0 mt-2 dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                    <li>
+                        <label class="flex cursor-pointer gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                            <input type="checkbox" class="toggle" checked="@(currentTheme == "light")"
+                                @onchange="ToggleTheme" />
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                            </svg>
+                        </label>
+                    </li>
+                    <li>
+                        <a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                            </svg>
+                            Çıkış Yap
+                        </a>
+                    </li>
+                </ul>
+            }
+        </div>
+    </div>
+
+</header>
+
+@code {
+    private bool isDropdownOpen = false;
+    private string? currentTheme;
+    private GptModelType currentModel;
+
+    protected override async Task OnInitializedAsync()
+    {
+        currentTheme = await LocalStorage.GetItemAsync<string>("theme");
+
+        currentModel = GptModelType.GPT4o;
+
+        await base.OnInitializedAsync();
+    }
+
+    private void SelectModel(GptModelType model)
+    {
+        currentModel = model;
+    }
+
+    private void ToggleDropdown()
+    {
+        isDropdownOpen = !isDropdownOpen;
+    }
+    private async Task ToggleTheme(ChangeEventArgs e)
+    {
+
+        currentTheme = currentTheme == "light" ? "dark" : "light";
+        ThemeService.CurrentTheme = currentTheme;
+        await LocalStorage.SetItemAsync("theme", currentTheme);
+    }
+}
