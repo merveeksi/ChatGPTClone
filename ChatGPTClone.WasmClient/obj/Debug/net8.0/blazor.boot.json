@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ChatGPTClone.WasmClient",
   "resources": {
-    "hash": "sha256-fG89LgFUqnIZsaX/w4KfMReYjdbJ6iA8Av/bTKiXDc0=",
+    "hash": "sha256-OOZ+nknQLMCYYB6a3TYet873tPJs38dr7DnQdz+B0fE=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.gpvyg56y8f.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -225,21 +225,21 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "ChatGPTClone.Application.wasm": "sha256-UdWv5rE/a4SYDaKCe9uSZtFqNZi4QFOAWDffO4ra4ug=",
-      "ChatGPTClone.Domain.wasm": "sha256-q7QJ161x1X6BQcFYVr/wdk0y72xSqeHVFTaVBbbQglY=",
-      "ChatGPTClone.WasmClient.wasm": "sha256-5BQTZO99uTmCu+6O9rPt7ib99gjin5d3JEnJRqNu9eY="
+      "ChatGPTClone.Application.wasm": "sha256-vzvNzzvFT7+/3ofGOv2zUngewEPr2Y7lNIgf/97nw8Q=",
+      "ChatGPTClone.Domain.wasm": "sha256-UtHKo8JlmWYXJjGU6h2sxco36ndnvE/Ko70cs4rbC7U=",
+      "ChatGPTClone.WasmClient.wasm": "sha256-Suxog9VmnC5GkzLlVGO2fqbJTNcuY1MaIkOQb5vPt5w="
     },
     "pdb": {
-      "ChatGPTClone.Application.pdb": "sha256-n/ZX7B/gcEoINfyi/cnlrvpRfPC8fP29ZlF5N4GBKPs=",
-      "ChatGPTClone.Domain.pdb": "sha256-KgxnzZ/+ForYeFk24vYWxBGaFjHQFnV4l5Tbg6TD1dM=",
-      "ChatGPTClone.WasmClient.pdb": "sha256-Ns4WYo0NFRYSb5f4pOhr741b7T8nB+pcOagCt5PanEw="
+      "ChatGPTClone.Application.pdb": "sha256-nYTGw5H3dTDu6RlSE5RyhDW3G+SvQOB5tXmt1/+FQ/A=",
+      "ChatGPTClone.Domain.pdb": "sha256-hfK6Jh5CAbfIoHAs+NZmfly6GW7oMewWV+tVJPVx54Y=",
+      "ChatGPTClone.WasmClient.pdb": "sha256-H0BcpniI0v1ytr10RnEqpd+j1ODuZAr04Dd3K3zUciU="
     },
     "satelliteResources": {
       "tr-TR": {
-        "ChatGPTClone.Application.resources.wasm": "sha256-ZgvPzvBtGAMb5JxTz7ed9XXIMbwpMak0uv6PaMOVHZg="
+        "ChatGPTClone.Application.resources.wasm": "sha256-s3j5JmVex42ZPLJbTRncsjG28G6qHu0sShi6GViEFqI="
       },
       "en-GB": {
-        "ChatGPTClone.Application.resources.wasm": "sha256-/sFYHEMxr0IIg5E3rIyMMQj3i408DZfBVkahXmpg5gM="
+        "ChatGPTClone.Application.resources.wasm": "sha256-RTT1cueQmgD82XXNQBahC4IaCdxQcFQ0LnhzfHfE4jQ="
       }
     }
   },

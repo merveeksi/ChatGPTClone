@@ -70,7 +70,7 @@ private List<ChatSessionGetAllDto> chatSessions = null;
 
 private void NavigateToChatSession(Guid chatSessionId)
 {
-Navigation.NavigateTo($"chat/{chatSessionId}");
+Navigation.NavigateTo($"/{chatSessionId}");
 }
 
 protected override async Task OnInitializedAsync()

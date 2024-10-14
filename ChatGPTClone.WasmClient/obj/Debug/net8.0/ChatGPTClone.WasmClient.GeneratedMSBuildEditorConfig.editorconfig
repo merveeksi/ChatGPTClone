@@ -26,8 +26,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Components/GptModelMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9HcHRNb2RlbE1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Components/LanguageMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYW5ndWFnZU1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Components/ProfileMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Qcm9maWxlTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Layout/EmptyLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L0VtcHR5TGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Layout/TopBar.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L1RvcEJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Pages/Auth/LoginPage.razor]

@@ -2274,3 +2274,4 @@
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/compressed/b603kkxmao.gz
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/compressed/mn3vs3t03p.gz
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/obj/Debug/net8.0/compressed/2nglkqrri8.gz
+/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/bin/Debug/net8.0/package-lock.json

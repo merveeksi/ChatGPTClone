@@ -43,4 +43,6 @@ builder.Services.AddScoped<AuthenticationStateProvider, CustomJwtAuthStateProvid
 
 builder.Services.AddAuthorizationCore(); 
 
+builder.Services.AddScoped<ThemeService>();
+
 await builder.Build().RunAsync();

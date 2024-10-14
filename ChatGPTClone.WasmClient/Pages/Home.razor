@@ -3,6 +3,7 @@
 @using System.ComponentModel.DataAnnotations
 @using Blazored.LocalStorage
 @using ChatGPTClone.Domain.Enums
+@using ChatGPTClone.WasmClient.Models
 @using ChatGPTClone.WasmClient.Services
 @using Microsoft.AspNetCore.Components.Authorization
 @inject ILocalStorageService LocalStorage
@@ -18,39 +19,39 @@
             <div class="flex-1 flex items-center justify-center">
                 @if (!isMain)
                 {
-                <div class="text-center">
-                    <div class="mb-8">
-                        <img class="mx-auto" src="https://i.hizliresim.com/jr62e8z.png" alt="Profile" />
-                    </div>
+                    <div class="text-center">
+                        <div class="mb-8">
+                            <img class="mx-auto" src="https://i.hizliresim.com/jr62e8z.png" alt="Profile" />
+                        </div>
 
-                    <!-- Action Cards -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
-                        <button class="card bg-base-100 shadow-xl">
-                            <div class="card-body">
-                                <h3 class="card-title">Bir firm için yapacağım sunumda kullanmak</h3>
-                            </div>
-                        </button>
-                        <button class="card bg-base-100 shadow-xl">
-                            <div class="card-body">
-                                <h3 class="card-title">@Id</h3>
-                            </div>
-                        </button>
-                        <button class="card bg-base-100 shadow-xl">
-                            <div class="card-body">
-                                <h3 class="card-title">Kişisel web sayfamı oluştur</h3>
-                            </div>
-                        </button>
-                        <button class="card bg-base-100 shadow-xl">
-                            <div class="card-body">
-                                <h3 class="card-title">Tesisatçı fiyat teklifi e-postası</h3>
-                            </div>
-                        </button>
+                        <!-- Action Cards -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
+                            <button class="card bg-base-100 shadow-xl">
+                                <div class="card-body">
+                                    <h3 class="card-title">@GptModelTypeState.GptModelType.ToString()</h3>
+                                </div>
+                            </button>
+                            <button class="card bg-base-100 shadow-xl">
+                                <div class="card-body">
+                                    <h3 class="card-title">@Id</h3>
+                                </div>
+                            </button>
+                            <button class="card bg-base-100 shadow-xl">
+                                <div class="card-body">
+                                    <h3 class="card-title">Kişisel web sayfamı oluştur</h3>
+                                </div>
+                            </button>
+                            <button class="card bg-base-100 shadow-xl">
+                                <div class="card-body">
+                                    <h3 class="card-title">Tesisatçı fiyat teklifi e-postası</h3>
+                                </div>
+                            </button>
+                        </div>
                     </div>
-                </div>
                 }
                 else
                 {
-                <h1>boşs</h1>
+                    <h1>boşs</h1>
                 }
             </div>
 
@@ -58,10 +59,10 @@
             <div class="border border-base-100 p-4">
                 <div class="max-w-3xl mx-auto relative">
                     <input type="text" placeholder="ChatGPT uygulamasına ileti gönder"
-                           class="input input-bordered w-full pr-10" />
+                        class="input input-bordered w-full pr-10" />
                     <button class="btn btn-circle btn-ghost absolute right-2 top-1/2 transform -translate-y-1/2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                             viewBox="0 0 16 16">
+                            viewBox="0 0 16 16">
                             <path
                                 d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.5.5 0 0 1-.9.1l-3-4.802a.5.5 0 0 1 .11-.7l3.7-2.462-2.462-3.7a.5.5 0 0 1 .11-.7l4.802-3a.5.5 0 0 1 .7.11z" />
                         </svg>
@@ -77,36 +78,23 @@
 </AuthorizeView>
 
 @code {
-[Parameter]
-public Guid Id { get; set; } = Guid.Empty;
-private bool isMain = false;
-private bool isDropdownOpen = false;
-private string? currentTheme;
-private GptModelType currentModel;
+    [Parameter]
+    public Guid Id { get; set; } = Guid.Empty;
+    private bool isMain = false;
+    private bool isDropdownOpen = false;
+    private string? currentTheme;
+    [CascadingParameter(Name = "GptModelTypeState")]
+    public GptModelTypeState GptModelTypeState { get; set; }
 
-protected override async Task OnInitializedAsync()
-{
-currentTheme = await LocalStorage.GetItemAsync<string>("theme");
+    protected override async Task OnInitializedAsync()
+    {
+        currentTheme = await LocalStorage.GetItemAsync<string>("theme");
 
-currentModel = GptModelType.GPT4o;
+        await base.OnInitializedAsync();
+    }
 
-await base.OnInitializedAsync();
-}
-
-private void SelectModel(GptModelType model)
-{
-currentModel = model;
-}
-
-private void ToggleDropdown()
-{
-isDropdownOpen = !isDropdownOpen;
-}
-private async Task ToggleTheme(ChangeEventArgs e)
-{
-
-currentTheme = currentTheme == "light" ? "dark" : "light";
-ThemeService.CurrentTheme = currentTheme;
-await LocalStorage.SetItemAsync("theme", currentTheme);
-}
+    private void ToggleDropdown()
+    {
+        isDropdownOpen = !isDropdownOpen;
+    }
 }

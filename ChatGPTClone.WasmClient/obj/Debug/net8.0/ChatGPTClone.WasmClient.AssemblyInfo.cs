@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatGPTClone.WasmClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce243e7b4d1f4ff29d2bba287ab9c73dda3db9fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53e0a37caf77ac94e709ee79ab1829ff6ef63d51")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatGPTClone.WasmClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatGPTClone.WasmClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
