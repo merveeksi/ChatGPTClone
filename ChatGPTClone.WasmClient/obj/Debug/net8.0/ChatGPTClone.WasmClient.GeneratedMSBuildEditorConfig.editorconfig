@@ -26,6 +26,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Components/ChatBubble.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9DaGF0QnViYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Components/ChatUI.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9DaGF0VUkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WasmClient/Components/GptModelMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9HcHRNb2RlbE1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

@@ -162,6 +162,7 @@
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/bin/Debug/net8.0/ChatGPTClone.WebApi.runtimeconfig.json
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/bin/Debug/net8.0/ChatGPTClone.WebApi.dll
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/bin/Debug/net8.0/ChatGPTClone.WebApi.pdb
+/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/bin/Debug/net8.0/OpenAI.dll
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/bin/Debug/net8.0/FluentValidation.dll
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/bin/Debug/net8.0/Humanizer.dll
@@ -301,4 +302,3 @@
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/obj/Debug/net8.0/ChatGPTClone.WebApi.pdb
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/obj/Debug/net8.0/ChatGPTClone.WebApi.genruntimeconfig.cache
 /Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/obj/Debug/net8.0/ref/ChatGPTClone.WebApi.dll
-/Users/pc/Desktop/ChatGPTCloneRepository/ChatGPTClone/ChatGPTClone.WebApi/bin/Debug/net8.0/OpenAI.dll

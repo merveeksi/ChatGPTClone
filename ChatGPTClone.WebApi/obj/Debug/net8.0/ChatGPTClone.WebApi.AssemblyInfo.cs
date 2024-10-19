@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatGPTClone.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39541be9ba3523ff3dcc608dc7e0c82428c24ab0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f51b86f4a3d4184b47e20297a62082644f98c8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatGPTClone.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatGPTClone.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
